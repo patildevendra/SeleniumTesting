@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Main Test Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" verbose="5" name="Extent Report Test(failed)">
+    <classes>
+      <class name="sample.TestNg3">
+        <methods>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="testCase5"/>
+          <include name="getResult"/>
+          <include name="testCase4"/>
+        </methods>
+      </class> <!-- sample.TestNg3 -->
+    </classes>
+  </test> <!-- Extent Report Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
